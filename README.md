@@ -1,0 +1,1 @@
+# Net.Chdk.Meta.Providers.Camera.Eos.Core
