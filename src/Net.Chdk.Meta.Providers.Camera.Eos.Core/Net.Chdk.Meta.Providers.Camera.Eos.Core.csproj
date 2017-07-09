@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.0</TargetFramework>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <Description>CHIMP EOS camera metadata providers API</Description>
+    <RootNamespace>Net.Chdk.Meta.Providers.Camera.Eos</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Authors>Dmitry Shechtman</Authors>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/CHDKUtil/Net.Chdk.Meta.Providers.Camera.Eos.Core/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/CHDKUtil/Net.Chdk.Meta.Providers.Camera.Eos.Core</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/CHDKUtil/Net.Chdk.Meta.Providers.Camera.Eos.Core</RepositoryUrl>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
+    <TreatSpecificWarningsAsErrors />
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
+    <TreatSpecificWarningsAsErrors />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Net.Chdk.Meta.Model.Camera.Eos\src\Net.Chdk.Meta.Model.Camera.Eos\Net.Chdk.Meta.Model.Camera.Eos.csproj" />
+    <ProjectReference Include="..\..\..\Net.Chdk.Meta.Model.CameraList\src\Net.Chdk.Meta.Model.CameraList\Net.Chdk.Meta.Model.CameraList.csproj" />
+    <ProjectReference Include="..\..\..\Net.Chdk.Meta.Model.CameraTree\src\Net.Chdk.Meta.Model.CameraTree\Net.Chdk.Meta.Model.CameraTree.csproj" />
+    <ProjectReference Include="..\..\..\Net.Chdk.Meta.Model.Camera\src\Net.Chdk.Meta.Model.Camera\Net.Chdk.Meta.Model.Camera.csproj" />
+    <ProjectReference Include="..\..\..\Net.Chdk.Meta.Model.Platform\src\Net.Chdk.Meta.Model.Platform\Net.Chdk.Meta.Model.Platform.csproj" />
+    <ProjectReference Include="..\..\..\Net.Chdk.Meta.Providers.Camera.Core\src\Net.Chdk.Meta.Providers.Camera.Core\Net.Chdk.Meta.Providers.Camera.Core.csproj" />
+  </ItemGroup>
+
+  <Import Project="..\..\..\Net.Chdk.Core\src\Net.Chdk.Shared\Net.Chdk.Shared.projitems" Label="Shared" />
+
+</Project>
