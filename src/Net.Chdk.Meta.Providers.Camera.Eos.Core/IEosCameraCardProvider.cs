@@ -2,7 +2,7 @@
 
 namespace Net.Chdk.Meta.Providers.Camera.Eos
 {
-    public interface IEosCardProvider : ICardProvider<EosCardData>
+    public interface IEosCameraCardProvider : ICameraCardProvider<EosCardData>
     {
     }
 }
