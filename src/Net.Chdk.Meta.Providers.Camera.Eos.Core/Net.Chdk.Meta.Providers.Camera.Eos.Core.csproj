@@ -26,11 +26,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Net.Chdk.Meta.Model.Camera.Eos\src\Net.Chdk.Meta.Model.Camera.Eos\Net.Chdk.Meta.Model.Camera.Eos.csproj" />
-    <ProjectReference Include="..\..\..\Net.Chdk.Meta.Model.CameraList\src\Net.Chdk.Meta.Model.CameraList\Net.Chdk.Meta.Model.CameraList.csproj" />
-    <ProjectReference Include="..\..\..\Net.Chdk.Meta.Model.CameraTree\src\Net.Chdk.Meta.Model.CameraTree\Net.Chdk.Meta.Model.CameraTree.csproj" />
-    <ProjectReference Include="..\..\..\Net.Chdk.Meta.Model.Camera\src\Net.Chdk.Meta.Model.Camera\Net.Chdk.Meta.Model.Camera.csproj" />
-    <ProjectReference Include="..\..\..\Net.Chdk.Meta.Model.Platform\src\Net.Chdk.Meta.Model.Platform\Net.Chdk.Meta.Model.Platform.csproj" />
+    <PackageReference Include="Net.Chdk.Meta.Model.Camera.Eos" Version="0.1.0-alpha" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\..\..\Net.Chdk.Meta.Providers.Camera.Core\src\Net.Chdk.Meta.Providers.Camera.Core\Net.Chdk.Meta.Providers.Camera.Core.csproj" />
   </ItemGroup>
 
