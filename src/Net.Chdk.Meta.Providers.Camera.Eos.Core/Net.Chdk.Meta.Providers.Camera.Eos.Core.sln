@@ -5,14 +5,7 @@ VisualStudioVersion = 15.0.26430.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Chdk.Meta.Providers.Camera.Eos.Core", "Net.Chdk.Meta.Providers.Camera.Eos.Core.csproj", "{C534284B-3B91-4E84-8FE1-C4F7C2D29767}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Chdk.Meta.Providers.Camera.Core", "..\..\..\Net.Chdk.Meta.Providers.Camera.Core\src\Net.Chdk.Meta.Providers.Camera.Core\Net.Chdk.Meta.Providers.Camera.Core.csproj", "{06A7E579-B118-4E83-880D-A3BFE031A015}"
-EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Net.Chdk.Shared", "..\..\..\Net.Chdk.Core\src\Net.Chdk.Shared\Net.Chdk.Shared.shproj", "{83C6A77C-3286-4F5F-B628-3B971097AD05}"
-EndProject
 Global
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		..\..\..\Net.Chdk.Core\src\Net.Chdk.Shared\Net.Chdk.Shared.projitems*{83c6a77c-3286-4f5f-b628-3b971097ad05}*SharedItemsImports = 13
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -22,10 +15,6 @@ Global
 		{C534284B-3B91-4E84-8FE1-C4F7C2D29767}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C534284B-3B91-4E84-8FE1-C4F7C2D29767}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C534284B-3B91-4E84-8FE1-C4F7C2D29767}.Release|Any CPU.Build.0 = Release|Any CPU
-		{06A7E579-B118-4E83-880D-A3BFE031A015}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{06A7E579-B118-4E83-880D-A3BFE031A015}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{06A7E579-B118-4E83-880D-A3BFE031A015}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{06A7E579-B118-4E83-880D-A3BFE031A015}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
